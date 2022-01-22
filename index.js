@@ -7,7 +7,7 @@ import LiteraturesDAO from "./dao/literaturesDAO.js"
 dotenv.config()
 
 const MongoClient = mongodb.MongoClient
-const port = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000
 
 MongoClient.connect(
     process.env.ATLAS_URI,
@@ -23,7 +23,7 @@ MongoClient.connect(
     await InvestmentsDAO.injectDB(client)
     await ProjectsDAO.injectDB(client)
     await LiteraturesDAO.injectDB(client)
-    app.listen(port, () =>{
+    app.listen(PORT, () =>{
         console.log(`Listening on port ${port}`)
     })
 })
