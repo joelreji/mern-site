@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
@@ -18,7 +19,11 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "mongoose": "^6.1.4",
+    "path": "^0.12.7",
     "pretty": "^2.0.0",
     "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "16.13.1"
   }
 }

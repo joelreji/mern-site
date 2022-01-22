@@ -3,9 +3,10 @@ import cors from "cors";
 import investments from "./api/investments.route.js"
 import projects from "./api/projects.route.js"
 import literatures from "./api/literatures.route.js"
-import path from "path"
+import path from 'path'
 
 const app = express()
+const __dirname = path.resolve();
 app.use(cors())
 app.use(express.json())
 app.use(express.static(path.join(__dirname, "frontend", "build")))
