@@ -12,7 +12,6 @@ const __dirname = path.resolve();
 app.use(cors())
 app.use(express.json())
 app.use(express.static(path.join(__dirname, "frontend", "build")))
-app.set("port", PORT)
 
 app.use("/api/v1/investments", investments)
 app.use("/api/v1/projects", projects)
