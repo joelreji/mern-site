@@ -27,19 +27,19 @@ const ProjectsList = props => {
                     <footer class="blockquote-footer"><cite title="Source Title">Steve Jobs</cite></footer>
                 </blockquote>
             </div>
-            <div class="container my-md-3 ps-md-3 px-2">
+            <div class="container my-md-3 ps-md-3 pb-3">
                 <div class="row">
                     {projects.map((project) => {
                         return (
-                            <div class="col-md-5 bg-dark me-md-3 pt-3 px-3  px-md-5 mb-3 text-center text-white overflow-hidden">
+                            <div class="col-md-5 bg-dark me-md-3 pt-3 px-3 px-md-5 mb-3 text-center text-white overflow-hidden">
                                 <div class="my-5 py-3">
-                                    <h2 class="display-5">{project.title}</h2>
+                                    <h2 class="display-6">{project.title}</h2>
                                     <p class="lead">{project.description}</p>
                                     {project.language.map(lang =>
                                             <img height="50" src={lang} />
                                         )}
                                         <br></br>
-                                    <a class="btn btn-outline-light mt-3" href={`${project.link}`}>Repository</a>
+                                    <a class="btn btn-outline-light mt-4" href={`${project.link}`}>Repository</a>
                                 </div>
                             </div>
                         );

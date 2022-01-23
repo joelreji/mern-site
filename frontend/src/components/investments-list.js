@@ -77,7 +77,13 @@ const InvestmentsList = props => {
                 </blockquote>
             </div>
             <div className="donut pb-5 d-flex justify-content-center">
-            <Chart options={options} series={series} type="donut" width="380" />
+                <Chart options={options} series={series} type="donut" width="380" />
+            </div>
+            <div className="alert alert-primary mb-5" role="alert">
+                <h4 class="alert-heading">👋</h4>
+                <p>Above, you can see my overall allocation strategy. Below, you can learn which specific assets make up the asset class.</p>
+                <hr></hr>
+                <p class="mb-0"><small>This resource represents my allocation strategy. This is not financial advice.</small></p>
             </div>
             <div className="row pb-1 px-2">
                 <div className="input-group">

@@ -55,13 +55,13 @@ function App() {
 
       <footer class="page-footer bg-dark text-white font-small blue pt-4">
         <div class="container-fluid text-center">
-          <div class="row pb-3">
-            <h5 class="text-uppercase text-center">JOEL REJI</h5>
+          <div class="row pb-2">
+            <h5 class="text-uppercase text-center"><small>JOEL REJI</small></h5>
           </div>
-              <a class="social"href="https://github.com/joelreji"><img class="mr-2" src="./GitHub-Mark-Light-32px.png"></img></a>
-              <a class="social" href="https://twitter.com/Joel_Reji"><img src="./Twitter social icons - circle - blue.png" width="35" height="35"></img></a>
-              <a class="social"href="mailto: joelrejiblog@gmail.com"><img src="./gmail.png" width="35" height="35"></img></a><br />
-          <div class="footer-copyright text-center py-3">© 2022 Copyright</div>
+          <a class="social" href="https://github.com/joelreji"><img class="mr-2" src="./GitHub-Mark-Light-32px.png" width="25" height="25"></img></a>
+          <a class="social" href="https://twitter.com/Joel_Reji"><img src="./Twitter social icons - circle - blue.png" width="25" height="25"></img></a>
+          <a class="social" href="mailto: joelrejiblog@gmail.com"><img src="./gmail.png" width="25" height="25"></img></a><br />
+          <div class="text-center py-3"><small>© 2022 Copyright</small></div>
         </div>
       </footer>
     </div>

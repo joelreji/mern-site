@@ -12,23 +12,23 @@ function Homepage() {
             </div>
             <div class="container my-md-3 ps-md-3">
                 <div class="row">
-                    <div class="col-md-6 bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                        <div class="my-5 py-3">
+                    <div class="col-md-6 bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5  text-white text-center overflow-hidden">
+                        <div class="my-3 p-3">
                             <h2 class="display-5">Code.</h2>
                             <p class="lead">I enjoy solving problems with code. My favorite language is Python.</p>
-                            <a class="btn btn-outline-light" href={"/portfolio"}>Repository</a>
+                            <a class="btn btn-outline-dark" href={"/portfolio"}>Repository</a>
                         </div>
                     </div>
-                    <div class="col bg-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                        <div class="my-5 p-3">
+                    <div class="col bg-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5  text-center text-white overflow-hidden">
+                        <div class="my-3 py-3">
                             <h2 class="display-5">Invest.</h2>
                             <p class="lead">I enjoy investing in the future. I believe in financial freedom.</p>
                             <a class="btn btn-outline-light" href={"/investments"}>Portfolio</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="container my-md-3 ps-md-3">
+                </div>
+            <div class="container my-md-3 ps-md-3 pb-3">
                 <div class="row">
                     <div class="col-md-6 bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5  text-center overflow-hidden">
                         <div class="my-3 p-3">
