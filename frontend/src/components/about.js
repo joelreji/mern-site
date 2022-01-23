@@ -34,7 +34,7 @@ function Homepage() {
                     <li>Spend time with family & friends</li>
                 </ul>
                 <p>I hope you find some value in this site. My goal has always been to provide value. If you love or hate something, send me an email!</p>
-                <a class="btn btn-dark text-white mt-3 mb-3" href="mailto: joelrejiblog@gmail.com">Lets chat</a><br />
+                <a class="btn btn-dark text-white mt-3 mb-3" href="mailto: joelrejiblog@gmail.com">Let's chat</a><br />
             </div>
         </div>
     )
