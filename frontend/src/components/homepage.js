@@ -7,7 +7,7 @@ function Homepage() {
                 <div class="col-md-5 p-lg-5 mx-auto my-5">
                     <h1 class="display-4 fw-normal">Hi, I'm Joel.</h1>
                     <p class="lead fw-lighter">I love to learn new things </p>
-                    <a class="btn btn-outline-secondary btn-outline-dark" href={"/about"}>About</a>
+                    <a class="btn btn-outline-secondary btn-outline-light" href={"/about"}>About</a>
                 </div>
             </div>
             <div class="container my-md-3 ps-md-3">
@@ -16,7 +16,7 @@ function Homepage() {
                         <div class="my-3 p-3">
                             <h2 class="display-5">Code.</h2>
                             <p class="lead">I enjoy solving problems with code. My favorite language is Python.</p>
-                            <a class="btn btn-outline-dark" href={"/portfolio"}>Repository</a>
+                            <a class="btn btn-outline-light" href={"/portfolio"}>Repository</a>
                         </div>
                     </div>
                     <div class="col bg-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5  text-center text-white overflow-hidden">
