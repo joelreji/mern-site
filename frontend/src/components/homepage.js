@@ -6,8 +6,8 @@ function Homepage() {
             <div class="position-relative overflow-hidden pt-5 p-3 p-md-5 m-md-3 text-center ">
                 <div class="col-md-5 p-lg-5 mx-auto my-5">
                     <h1 class="display-4 fw-normal">Hi, I'm Joel.</h1>
-                    <p class="lead fw-lighter">I love to learn new things </p>
-                    <a class="btn btn-outline-secondary btn-outline-light" href={"/about"}>About</a>
+                    <p class="lead fw-lighter">I love to learn new things</p>
+                    <a class="btn btn-outline-secondary btn-outline-dark" href={"/about"}>About</a>
                 </div>
             </div>
             <div class="container my-md-3 ps-md-3">
