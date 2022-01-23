@@ -33,7 +33,7 @@ const ProjectsList = props => {
                         return (
                             <div class="col-md-5 bg-dark me-md-3 pt-3 px-3 px-md-5 mb-3 text-center text-white overflow-hidden">
                                 <div class="my-5 py-3">
-                                    <h2 class="display-6">{project.title}</h2>
+                                    <h2 class="display-5 pb-3">{project.title}</h2>
                                     <p class="lead">{project.description}</p>
                                     {project.language.map(lang =>
                                             <img height="50" src={lang} />
