@@ -23,18 +23,18 @@ function Homepage() {
                     <li><strong>N</strong>ode - Javascipt</li>
                 </ul>
                 <p><strong>A litte bit about myself</strong></p>
-                <p>I am a United States immigrant born in Dubai. My family is original from Kerala, India.
+                <p>I am a United States immigrant born in Dubai. My family is originally from Kerala, India.
                     Kerala is a southern state of India, known as <em>God's Own Country. </em>
-                    I am a Software Engineer by trade and I am also in graduate school for my Masters in Data Science.
+                    I am a Software Engineer by trade, and I am also in graduate school for my Masters in Data Science.
                 </p>
                 <p><strong>In my free time, I like to</strong></p>
                 <ul>
                     <li>Listen and learn about music</li>
-                    <li>Learn about emerging trends and technologies</li>
+                    <li>Learn about emerging trends & technologies</li>
                     <li>Spend time with family & friends</li>
                 </ul>
                 <p>I hope you find some value in this site. My goal has always been to provide value. If you love or hate something, send me an email!</p>
-                <a class="btn btn-dark text-white mt-3 mb-3" href="mailto: joelrejiblog@gmail.com">Let's chat</a><br />
+                <a class="btn btn-dark text-white mt-3 mb-3" href="mailto: joelrejiblog@gmail.com">Let's chat - email me</a><br />
             </div>
         </div>
     )
