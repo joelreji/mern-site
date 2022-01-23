@@ -40,7 +40,7 @@ function Homepage() {
                     <div class="col bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5  text-center text-white overflow-hidden">
                         <div class="my-3 py-3">
                             <h2 class="display-5">Heimdall.</h2>
-                            <p class="lead">Under development. Stay tuned for further updates. Bro what is </p>
+                            <p class="lead">Under development. Stay tuned for further updates.</p>
                             <a class="btn btn-outline-light" href="https://www.britannica.com/topic/Heimdall">Heimdall</a>
                         </div>
                     </div>
