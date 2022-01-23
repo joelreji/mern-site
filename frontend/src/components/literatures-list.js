@@ -90,7 +90,7 @@ const Literatureslist = props => {
                     <footer class="blockquote-footer"><cite title="Source Title">Mahatma Gandhi</cite></footer>
                 </blockquote>
             </div>
-            <div className="row pb-1 px-2">
+            <div className="row pb-2 px-2">
                 <div className="input-group col-lg-4">
                     <select onChange={onChangeSearchGenre}>
                         {genres.map(genre => {
